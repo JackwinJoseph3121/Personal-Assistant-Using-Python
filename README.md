@@ -63,13 +63,20 @@ All the modules can be install using pip. There might be problem only in install
 
 pip install speech recognition
 
-for pyaudio installation- pip install pipwin
+for pyaudio installation-  
+
+                          pip install pipwin
                           pipwin install pyaudio
 
 
-for chatterbot installation_ pip install Chatterbot
+for chatterbot installation_ 
+
+                               pip install Chatterbot
+
                              pip install spacy==2.3.3(dependancy of the chatterbot module)
+                             
                              run cmd as administrator
+                             
                              run- python -m spacy download en(this should be done in the directory of lib/sites and packages in python)
 
 
