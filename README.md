@@ -1,6 +1,6 @@
 # Personal Assistant  for Desktop using Python
 
-The name of this personal assistant is Thursday.
+The name of this personal assistant is **Thursday**.
 
 This is a personal assistant made using python.It is a program packed with many functions like playing a song, taking a picture, taking a screenhot to name a few. It gives a personalised experience for the user to tkinker with. The nlp used with the chatterbot module makes it a smart personal assistant.It has functions like getting the path of a file or application when the application is specified.It has the text to speech and speech to text conversion to make the program more user friendly and interesting.The functions of this personal assistant are as follows:
 
