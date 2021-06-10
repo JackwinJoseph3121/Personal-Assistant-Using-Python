@@ -24,18 +24,18 @@ The dependancies and the required modules are as follows:
 
 
 
-* Chatterbot- required for the chatbot features of the personal assisant.
-* speech recognition(google)- required for speech to text conversion.
-* Tkinter- for the graphical use interface of the application.
-* Threading - used for the parallel tasks happening in the application.
-* os - used for file and the desktop system operations.
-* OpenCv - used for taking pictures when the command is invoked.
-* pyttsx3 - used for the text to speech conversion.
-* webbrowser - used for opening links on the browser when function is invoked.
-* Pillow - used for working with image files in the program.
-* pyscreenshot - used for grabbing the screenshot when the function is invoked.
-* playsound - It is used for playing the song when the function is invoked.
-* datetime - used for getting the date and time of system.
+* **Chatterbot**- required for the chatbot features of the personal assisant.
+* **speech recognition(google)**- required for speech to text conversion.
+* **Tkinter**- for the graphical use interface of the application.
+* **Threading** - used for the parallel tasks happening in the application.
+* **os** - used for file and the desktop system operations.
+* **OpenCv** - used for taking pictures when the command is invoked.
+* **pyttsx3** - used for the text to speech conversion.
+* **webbrowser** - used for opening links on the browser when function is invoked.
+* **Pillow** - used for working with image files in the program.
+* **pyscreenshot** - used for grabbing the screenshot when the function is invoked.
+* **playsound** - It is used for playing the song when the function is invoked.
+* **datetime** - used for getting the date and time of system.
 
 All the modules can be install using pip. There might be problem only in installing the speech recognition module as there are some dependencies like pyaudio for it.
 
@@ -60,4 +60,4 @@ for chatterbot installation_
                              run- python -m spacy download en(this should be done in the directory of lib/sites and packages in python)
 
 
-This works well for python 3.7 . Not sure if it would work for other versions.Try it and let me know.
+This works well for python 3.7 . Not sure if it would work for other versions.There is only one yaml folder for chatbot corpusle training. You can get it from gunthercox chat corplusles.Try it and let me know.
