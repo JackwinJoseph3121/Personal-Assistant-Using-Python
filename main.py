@@ -159,7 +159,7 @@ def screen_shot():
     
     try:
         image = pyscreenshot.grab()
-        image_name ='screenshot '+time_now_string+'.png'
+        image_name ='screenshot '+day_string+'.png'
         time.sleep(5)
         image.save(image_name)
         global answer
