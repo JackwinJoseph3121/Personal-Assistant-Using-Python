@@ -26,6 +26,12 @@ import time
 
 
 
+
+
+
+
+
+
 data_list=[ "Hi what's your name?",
             'My name is Thursday',
             'I am your personal assistant',
@@ -45,6 +51,9 @@ data_list=[ "Hi what's your name?",
 
 
 
+
+
+
 bot=ChatBot('Bot')
 trainer=ListTrainer(bot)
 
@@ -56,7 +65,10 @@ trainer.train(data_list)
      
      
 
-                
+      
+            
+            
+            
 
      
      
@@ -78,6 +90,9 @@ def open_desktop_app(application):#hanging,used for getting the path of the spec
         #return path 
 
 
+            
+            
+            
 
 
 
@@ -90,6 +105,10 @@ def first_response():#not working,wanted to say it as a greeting
     
 
 #first_response()
+
+
+
+
 
 
 
@@ -116,6 +135,10 @@ def open_web(name):#opens the link in a web browser
 
 
 
+
+
+
+
 def date_and_time():
     #gives the current date and time 
     now = datetime.datetime.now()
@@ -128,6 +151,11 @@ def date_and_time():
     
   
   
+
+
+
+
+
   
     
     
@@ -146,6 +174,10 @@ def date_today():
 
 
 
+            
+            
+            
+            
 
 def screen_shot():
     
@@ -157,6 +189,7 @@ def screen_shot():
     day_string = today.strftime("%d %B, %Y")
     time_now_string = now.strftime("%#d %#B %#Y-%#I:%#M%p")
     
+
     try:
         image = pyscreenshot.grab()
         image_name ='screenshot '+day_string+'.png'
