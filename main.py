@@ -127,6 +127,9 @@ def open_web(name):#opens the link in a web browser
         answer = 'I am sorry i was unable to open '+str(name)
 
 
+            
+            
+            
 #trainer.train(data_list)
 #engine = pyttsx3.init()
 
@@ -207,6 +210,10 @@ def screen_shot():
  
  
  
+
+
+
+
    
    
 def take_pic():
@@ -252,6 +259,10 @@ def take_pic():
            
     
 
+            
+            
+            
+            
 
 
 
@@ -291,6 +302,11 @@ def play_song():
 
 
 
+
+
+
+
+
 def botReply():
     
         #gives the response from the personal assistant
@@ -311,6 +327,8 @@ def botReply():
         
         
         
+
+
         
         try:
             answer =''#'Hi I am Thursday, your personal assistant.What can i do for you??'(not working)
@@ -410,6 +428,12 @@ def botReply():
                     
             
                 
+                        
+                        
+                        
+                        
+                        
+                        
         #answer = 'Opening '+str(opener[-1])+ '.........please wait'
         answer = ""#"Carry on don't you have anything else to ask me."
             
@@ -423,11 +447,19 @@ def botReply():
         #    print(e)
                 
         
+
+
+
         textarea.insert(END,'Bot: '+str(response)+'\n\n')
                 
         pyttsx3.speak(response)
         
         questionField.delete(0,END)
+
+
+
+
+
 
 
 
@@ -471,6 +503,13 @@ def audio_text():
        
        
        
+
+
+
+
+
+
+
        
        
        
@@ -481,6 +520,13 @@ def audio_text():
 
 
 ###############################################################   Tkinter Part   ###################################################
+
+
+
+
+
+
+
 
 
 
@@ -508,11 +554,16 @@ root.config(bg='indigo')
 
 
 
+
+
 background_image = PhotoImage(file='wallpaper screenshot red.png')#add the desired image over here wallpaper screenshot3
 
 background_label = Label(root, image = background_image,border=0, height = 1500, width  = 1500, padx  =  10, pady  = 10)
 
 background_label.place(x=0, y=0, relwidth=1,bordermode = INSIDE, relheight = 1, anchor = NW)
+
+
+
 
 
 
@@ -534,8 +585,13 @@ centerFrame.pack()
 
 
 
+
+
 scrollbar=Scrollbar(centerFrame)
 scrollbar.pack(side=RIGHT)
+
+
+
 
 
 
@@ -557,6 +613,9 @@ scrollbar.config(command=textarea.yview)
 
 
 
+
+
+
 questionField=Entry(root,font=('verdana',20,'bold'),bg='grey')
 questionField.pack(pady=15)
 
@@ -569,10 +628,17 @@ questionField.pack(pady=15)
 
 
 
+
+
+
+
 ask_image=PhotoImage(file='circle-cropped.png')
 ask_image1 = ask_image.subsample(1,1)
 ask_button=Button(root,image=ask_image1,border=0,activebackground='grey',command=botReply,relief='groove')
 ask_button.pack(padx=5,pady=2)
+
+
+
 
 
 
@@ -590,6 +656,10 @@ ask_button.pack(padx=5,pady=2)
 
 
 
+
+
+
+
 def click(event):
     
     ask_button.invoke()
@@ -602,6 +672,13 @@ thread = threading.Thread(target = audio_text)
 thread.setDaemon(True)
 thread.start()
 root.mainloop()
+
+
+
+
+
+
+
 
 
 
