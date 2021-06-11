@@ -6,14 +6,28 @@ This is a personal assistant made using python.It is a program packed with many 
 
 
 
-*  Screenshot the pc with the timestamp: **Command**- "take screenshot" or "Take screenshot".
-* Playing songs from the desired file location.**Command**- "Play song" or "play song".
-*  Opening links in the webbrowser. **Command**-"open website 'desired website'" or "Open website 'desired website'".
-* Opening files and desktop application using the program. **Command**-"Open application (desired application or file)" or "Open application (desired application or file)".Desired applications like spotify,notepad,etc.
+*  Screenshot the pc with the timestamp: **Command**-
+                                                      
+                                                              "take screenshot" or "Take screenshot".
+* Playing songs from the desired file location.**Command**-
+                                                             
+                                                               "Play song" or "play song".
+*  Opening links in the webbrowser. **Command**-
+                                                               
+                                                               "open website 'desired website'" or "Open website 'desired website'".
+* Opening files and desktop application using the program. **Command**- 
+
+                                                                 "Open application (desired application or file)" or "Open application (desired application or file)".Desired applications like spotify,notepad,etc.
 * Text to speech and speech to text conversion to interact with  the program.Just press the button and ask.
-* Taking a picture and saving it in the desire location.**Command**- "Take pic" or "take pic" or "Take picture".
-* Giving the current date and time when asked .**Command**-"Date and time" or "date today".
-* Giving the file path when the asked for the path.**Command**-"Give path" or "give path"(not working at the moment)
+* Taking a picture and saving it in the desire location.**Command**-
+                                                                   
+                                                                   "Take pic" or "take pic" or "Take picture".
+* Giving the current date and time when asked .**Command**-
+                                                                      
+                                                                    "Date and time" or "date today".
+* Giving the file path when the asked for the path.**Command**-
+                                                                        
+                                                                     "Give path" or "give path"(not working at the moment)
 
 
 
